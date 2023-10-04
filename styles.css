@@ -1,0 +1,54 @@
+body {
+  background: url('images/bulb.png');
+
+  background-size: 50vw;
+}
+
+.nav {
+  position: fixed;
+  margin-top: 2vmin;
+  margin-left: 2vmin;
+  font-size: 200%;
+  z-index: 4;
+}
+
+a {
+  text-decoration: none;
+}
+
+.image_format1 {
+  margin: 0;
+  display: block;
+  position: relative;
+  width: 100vw;
+  height: 400vh;
+  z-index: 2;
+}
+
+.image_format2 {
+  margin: 0;
+  display: block;
+  position: relative;
+  width: 100vw;
+  height: 400vh;
+  z-index: 2;
+}
+
+.stretched_images {
+  margin: 0;
+  display: block;
+  position: relative;
+  width: 100vw;
+  height: 400vh;
+  z-index: 1;
+}
+
+.door_image {
+  margin-top: 200%;
+  margin-left: 70%;
+  display: block;
+  position: absolute;
+  width: 100vw;
+  height: 400vh;
+  z-index: 5;
+}
